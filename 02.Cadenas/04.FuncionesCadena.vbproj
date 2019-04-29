@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{C8D5224B-0E2B-4B49-9583-9B42FE433A54}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>_02.Cadenas.Module1</StartupObject>
+    <StartupObject>_02.Cadenas.FuncionesCadena</StartupObject>
     <RootNamespace>_02.Cadenas</RootNamespace>
     <AssemblyName>02.Cadenas</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="FuncionesCadena.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
