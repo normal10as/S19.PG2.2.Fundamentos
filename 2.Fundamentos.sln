@@ -9,7 +9,7 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "04.FuncionesCadena", "02.Ca
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "02.Operaciones", "02.Operaciones\02.Operaciones.vbproj", "{264E3DD8-F380-4914-B3F8-7426AA718D52}"
 EndProject
-Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "02.OperacionesCadena", "02.OperacionesCadena\02.OperacionesCadena.vbproj", "{720288F1-1862-49DA-953E-D8D739C5AD66}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "05.FuncionesFecha", "02.OperacionesCadena\05.FuncionesFecha.vbproj", "{720288F1-1862-49DA-953E-D8D739C5AD66}"
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "03.FuncionesMatematicas", "03.FuncionesMatematicas\03.FuncionesMatematicas.vbproj", "{F96D5245-3FEE-4ED2-9329-6409105222AB}"
 EndProject

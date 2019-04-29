@@ -1,6 +1,8 @@
+Imports System.DateTime
 Imports System.String
 Module Program
     Sub Main(args As String())
+        Console.WriteLine("Ahora: " & now)
         Dim TestDateTime As Date = #1/27/2019 5:04:23 PM#
         Console.WriteLine(Format(TestDateTime, "Long Time"))
         Console.WriteLine(Format(TestDateTime, "h:m:s"))

@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>_02.OperacionesCadena</RootNamespace>
     <TargetFramework>netcoreapp2.1</TargetFramework>
-    <StartupObject>(None)</StartupObject>
+    <StartupObject>Sub Main</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>

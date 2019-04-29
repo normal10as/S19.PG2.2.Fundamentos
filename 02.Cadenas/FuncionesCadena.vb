@@ -41,6 +41,31 @@
         Console.WriteLine("Reemplazar en '{0}' la o por la i", TestString)
         Console.WriteLine(Replace(TestString, "o", "i"))
 
+        ' Returns current system time in the system-defined long time format.
+        Console.WriteLine(Format(Now(), "Long Time"))
+        ' Returns current system date in the system-defined long date format.
+        Console.WriteLine(Format(Now(), "Long Date"))
+        ' Also returns current system date in the system-defined long date 
+        ' format, using the single letter code for the format.
+        Console.WriteLine(Format(Now(), "D"))
+
+        ' Returns the value of TestDateTime in user-defined date/time formats.
+        ' Returns "5:4:23".
+        Console.WriteLine(Format(Now(), "h:m:s"))
+        ' Returns "05:04:23 PM".
+        Console.WriteLine(Format(Now, "hh:mm:ss tt"))
+        ' Returns "Saturday, Jan 27 2001".
+        Console.WriteLine(Format(Now, "dddd, MMM d yyyy"))
+        ' Returns "17:04:23".
+        Console.WriteLine(Format(Now, "HH:mm:ss"))
+
+        ' User-defined numeric formats.
+        ' Returns "5,459.40".
+        Console.WriteLine(Format(5459.4, "##,##0.00"))
+        ' Returns "334.90".
+        Console.WriteLine(Format(5334.9, "###0.00"))
+        ' Returns "500.00%".
+        Console.WriteLine(Format(5, "0.00%"))
         Console.ReadKey()
     End Sub
 
