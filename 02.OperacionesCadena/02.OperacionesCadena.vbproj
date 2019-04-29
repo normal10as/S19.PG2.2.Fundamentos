@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_02.OperacionesCadena</RootNamespace>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <StartupObject>(None)</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic.Core" />
+  </ItemGroup>
+
+</Project>
