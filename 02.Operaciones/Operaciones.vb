@@ -30,6 +30,11 @@ Module Program
         x = a + b * c / a
         Console.WriteLine("{0} + {1} * {2} / {0} = " & x, a, b, c)
 
+        ' Acumulador
+        Console.Write("{0} + {1} = ", x, b)
+        x += b
+        Console.WriteLine(x)
+
         ' booleano
         Dim verdadero As Boolean = True
         Dim falso As Boolean = False
