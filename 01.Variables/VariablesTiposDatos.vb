@@ -42,6 +42,7 @@ Module Variables
         car = "e"
         Console.WriteLine("Char: " & car)
         car = Convert.ToChar(101)
-        Console.WriteLine("ToChar(101): " & car)
+        Console.WriteLine("ToChar(101): " + car)
+
     End Sub
 End Module

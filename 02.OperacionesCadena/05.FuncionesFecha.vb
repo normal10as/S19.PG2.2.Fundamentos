@@ -9,7 +9,7 @@ Module Program
         Console.WriteLine(TestDateTime)
         TestDateTime = New DateTime(2019, 4, 20, 12, 35, 30)
         Console.WriteLine(TestDateTime)
-        Console.WriteLine("Día de la semana: " & Now.DayOfWeek)
+        Console.WriteLine("Día de la semana: " & TestDateTime.DayOfWeek)
         Console.WriteLine("Mes: " & Now.Month)
         Console.WriteLine("Segundos: " & Now.Second)
 
