@@ -44,5 +44,11 @@ Module Variables
         car = Convert.ToChar(101)
         Console.WriteLine("ToChar(101): " + car)
 
+        'Contante
+        Const iva As Single = 21
+        Dim monto As Single = 500
+        Console.WriteLine("Compra: $" & monto)
+        Console.WriteLine("Iva: %" & iva)
+        Console.WriteLine("Total: $" & monto + monto * iva / 100)
     End Sub
 End Module
