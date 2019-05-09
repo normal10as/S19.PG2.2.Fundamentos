@@ -8,7 +8,7 @@ Module Program
     End Enum
 
     Sub Main(args As String())
-        Console.WriteLine("Ingrese un color ({0}, {1}, {2})")
+        Console.WriteLine("Lista de colores")
         Console.WriteLine(ColoresPrimarios.Red & ") " & ColoresPrimarios.Red.ToString())
         Console.WriteLine(ColoresPrimarios.Green & ") {0}", ColoresPrimarios.Green)
         Console.WriteLine("{0}) {1}", ColoresPrimarios.Blue.GetHashCode, ColoresPrimarios.Blue.ToString())
@@ -16,7 +16,7 @@ Module Program
         color = 18
         Console.WriteLine("Color existe: " & [Enum].IsDefined(GetType(ColoresPrimarios), color))
         Console.WriteLine("Color escogido: " & color & " - " & color.ToString)
-        color = 15
+        color = ColoresPrimarios.Blue
         Console.WriteLine("Color existe: " & [Enum].IsDefined(GetType(ColoresPrimarios), color))
         Console.WriteLine("Color escogido: " & color & " - " & color.ToString)
     End Sub

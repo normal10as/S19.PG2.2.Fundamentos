@@ -6,4 +6,8 @@
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\02.Operaciones\02.Operaciones.vbproj" />
+  </ItemGroup>
+
 </Project>

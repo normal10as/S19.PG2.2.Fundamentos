@@ -1,6 +1,10 @@
 Imports System
+Imports _02
 
 Module Variables
+    ' esta variable es accesible en cualquier lugar de este módulo
+    Private privada As String
+
     Sub Main()
         ' declaración
         Dim bite As Byte
@@ -44,11 +48,26 @@ Module Variables
         car = Convert.ToChar(101)
         Console.WriteLine("ToChar(101): " + car)
 
-        'Contante
+        'Constante
         Const iva As Single = 21
         Dim monto As Single = 500
         Console.WriteLine("Compra: $" & monto)
         Console.WriteLine("Iva: %" & iva)
         Console.WriteLine("Total: $" & monto + monto * iva / 100)
+
+        ' alcance o visibilidad de variables
+        privada = "Esta cadena esta en una variable privada"
+        amiga = "Esta cadena esta en una variable amiga"
+        Operaciones.publica = "Esta cadena esta en una variable publica"
+        otroProcedimiento()
+        Console.ReadKey()
+        Console.Clear()
+        Operaciones.Main()
+    End Sub
+
+    Sub otroProcedimiento()
+        Console.WriteLine(privada)
+        Console.WriteLine(amiga)
+        Console.WriteLine(Operaciones.publica)
     End Sub
 End Module

@@ -1,10 +1,7 @@
 Imports System
 
-Public Module Program
-    ' esta variable es accesible en cualquier lugar de la solución
-    Public publica As String
-
-    Sub Main()
+Module Program
+    Sub Main(args As String())
         Dim dato1, dato2, resultado As Integer
         dato1 = 20
         dato2 = 10
