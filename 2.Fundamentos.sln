@@ -13,7 +13,9 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "04.FuncionesCadena", "04.Fu
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "05.FuncionesFecha", "05.FuncionesFecha\05.FuncionesFecha.vbproj", "{72F561DA-13B2-45A6-A484-257342A2684D}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "06.Enumeraciones", "06.Enumeraciones\06.Enumeraciones.vbproj", "{061B8A8C-4C22-4BCE-972B-3ABE83FCEADE}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "06.Enumeraciones", "06.Enumeraciones\06.Enumeraciones.vbproj", "{061B8A8C-4C22-4BCE-972B-3ABE83FCEADE}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "07.Procedimientos", "07.Procedimientos\07.Procedimientos.vbproj", "{3F56FC3E-FE74-4958-A156-8D43ABDFC43C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{061B8A8C-4C22-4BCE-972B-3ABE83FCEADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{061B8A8C-4C22-4BCE-972B-3ABE83FCEADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{061B8A8C-4C22-4BCE-972B-3ABE83FCEADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F56FC3E-FE74-4958-A156-8D43ABDFC43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F56FC3E-FE74-4958-A156-8D43ABDFC43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F56FC3E-FE74-4958-A156-8D43ABDFC43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F56FC3E-FE74-4958-A156-8D43ABDFC43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
