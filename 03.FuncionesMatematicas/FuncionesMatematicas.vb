@@ -1,6 +1,6 @@
 Imports System.Math
 
-Module Program
+Module FuncionesMatematicas
     Sub Main(args As String())
         Dim a, b As Double
         a = -50.3
