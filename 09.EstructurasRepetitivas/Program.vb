@@ -2,9 +2,8 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-        ComparandoEstructras()
-        Return
-
+        'ComparandoEstructras()
+        ForNext.Hacer()
         'Do
         '    Console.WriteLine("ingresar un valor entre 1 y 10")
         '    valor = Console.ReadLine()
