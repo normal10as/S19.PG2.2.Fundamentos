@@ -24,7 +24,7 @@ Module Program
                     Console.WriteLine("Es tres o cinco")
                 Case 6 To 8
                     Console.WriteLine("Es de seis a ocho")
-                Case Is < 0
+                Case  Is <0
                     Console.WriteLine("Es negativo")
                 Case Else
                     Console.WriteLine("Es otro numero")

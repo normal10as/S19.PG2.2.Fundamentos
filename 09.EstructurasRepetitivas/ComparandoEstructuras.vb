@@ -4,16 +4,16 @@
 
     Sub ComparandoEstructras()
         Console.WriteLine(vbCrLf & "For")
-        For y As Byte = inicio To tope
+        For y As SByte = inicio To tope
             Console.Write(y & " ")
         Next
 
         Dim valor As Short
         Console.WriteLine(vbCrLf & "Do While")
         valor = inicio
-        Do While valor < tope
+        Do While valor <= tope
             Console.Write(valor)
-            valor += 1
+            valor -= 1
         Loop
         Console.WriteLine(vbCrLf & "Do Until")
         valor = inicio
