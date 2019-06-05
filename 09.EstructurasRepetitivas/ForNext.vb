@@ -1,5 +1,5 @@
 ﻿Module ForNext
-    Sub Hacer()
+    Sub TablaMultiplicar()
         Console.WriteLine("Tabla de multiplicar")
         Console.Write("Ingrese un valor: ")
         Dim valor As UInt16 = Console.ReadLine()

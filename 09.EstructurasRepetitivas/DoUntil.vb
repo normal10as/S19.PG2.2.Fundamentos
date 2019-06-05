@@ -1,4 +1,4 @@
-﻿Module DoWhile
+﻿Module DoUntil
     Sub NumeroPrimo()
         Console.WriteLine("Un número primo es un número natural mayor que 1 que tiene únicamente dos divisores distintos: él mismo y el 1")
         Console.WriteLine("Ingrese un valor para saber si es número primo: ")
@@ -11,9 +11,9 @@
         ' el primer valor divisor para descartar un numero primo es 2
         divisor = 2
 
-        ' itera si el resto es distinto de cero y el divisor es menor o igual a la raíz cuadrada
+        ' sale si el resto es igual de cero y el divisor es mayor a la raíz cuadrada
         ' si el primer calculo de resto da 0 no itera en absoluto
-        Do While valor Mod divisor <> 0 And divisor <= raizcuadrada
+        Do Until valor Mod divisor = 0 Or divisor > raizcuadrada
             divisor += 1
             Console.Write(" " & divisor)
         Loop
