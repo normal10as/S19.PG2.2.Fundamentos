@@ -14,8 +14,8 @@
         ' itera si el resto es distinto de cero y el divisor es menor o igual a la raíz cuadrada
         ' si el primer calculo de resto da 0 no itera en absoluto
         Do While valor Mod divisor <> 0 And divisor <= raizcuadrada
-            divisor += 1
             Console.Write(" " & divisor)
+            divisor += 1
         Loop
 
         'si el divisor es mayor a la raíz cuadrada es primo
