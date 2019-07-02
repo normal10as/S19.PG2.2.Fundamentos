@@ -24,10 +24,11 @@ Module Program
 
         MostrarColeccion(frutas)
         ' ordena por valores
+        Console.WriteLine("Ordenar")
         frutas.Sort()
+        MostrarColeccion(frutas)
         ' invierte el orden
         frutas.Reverse()
-        Console.WriteLine("Ordenar")
         MostrarColeccion(frutas)
         ' obtiene el segundo elemento
         Console.WriteLine("segundo: " & frutas.Item(1))
@@ -48,10 +49,11 @@ Module Program
         MostrarColeccion(frutas)
     End Sub
 
-    Private Sub MostrarColeccion(frutas As ArrayList)
+    Private Sub MostrarColeccion(lista As ArrayList)
         Console.WriteLine("Mostrar colección")
-        For Each fruta In frutas
-            Console.WriteLine(fruta)
+        For Each elemento In lista
+            Console.WriteLine(elemento)
         Next
+        Console.WriteLine("")
     End Sub
 End Module

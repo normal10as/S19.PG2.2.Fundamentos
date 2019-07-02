@@ -2,30 +2,30 @@ Imports System
 
 Module Program
     Sub Main(args As String())
-        Dim programaAsociado As New SortedList(Of String, String)
+        Dim programasAsociados As New SortedList(Of String, String)
 
         ' Add some elements to the list. There are no 
         ' duplicate keys, but some of the values are duplicates.
-        programaAsociado.Add("txt", "notepad.exe")
-        programaAsociado.Add("bmp", "paint.exe")
-        programaAsociado.Add("dib", "paint.exe")
-        programaAsociado.Add("rtf", "wordpad.exe")
-        programaAsociado.Add("exe", "explorer.exe")
-        MostrarTodos(programaAsociado)
+        programasAsociados.Add("txt", "notepad.exe")
+        programasAsociados.Add("bmp", "paint.exe")
+        programasAsociados.Add("dib", "paint.exe")
+        programasAsociados.Add("rtf", "wordpad.exe")
+        programasAsociados.Add("exe", "explorer.exe")
+        MostrarTodos(programasAsociados)
 
         Console.WriteLine("Cambiar rtf a winword")
-        Console.WriteLine("For key = ""rtf"", value = {0}.", programaAsociado("rtf"))
-        programaAsociado("rtf") = "winword.exe"
-        MostrarTodos(programaAsociado)
+        Console.WriteLine("For key = ""rtf"", value = {0}.", programasAsociados("rtf"))
+        programasAsociados("rtf") = "winword.exe"
+        MostrarTodos(programasAsociados)
         Console.WriteLine("Eliminar rtf a winword")
-        Console.WriteLine("For key = ""rtf"", value = {0}.", programaAsociado("rtf"))
-        programaAsociado.Remove("exe")
-        MostrarTodos(programaAsociado)
+        Console.WriteLine("For key = ""rtf"", value = {0}.", programasAsociados("rtf"))
+        programasAsociados.Remove("exe")
+        MostrarTodos(programasAsociados)
     End Sub
 
-    Private Sub MostrarTodos(programaAsociado As SortedList(Of String, String))
+    Private Sub MostrarTodos(lista As SortedList(Of String, String))
         Console.WriteLine("Lista completa")
-        For Each kvp As KeyValuePair(Of String, String) In programaAsociado
+        For Each kvp As KeyValuePair(Of String, String) In lista
             Console.WriteLine("Key = {0}, Value = {1}", kvp.Key, kvp.Value)
         Next
         Console.WriteLine("")

@@ -36,10 +36,10 @@ Module Program
         Next
     End Sub
 
-    Private Sub MostrarTodos(frutas As List(Of String))
+    Private Sub MostrarTodos(lista As List(Of String))
         ' salida en pantalla
-        For Each fruta In frutas
-            Console.WriteLine(fruta)
+        For Each elemento In lista
+            Console.WriteLine(elemento)
         Next
         Console.WriteLine("")
     End Sub
