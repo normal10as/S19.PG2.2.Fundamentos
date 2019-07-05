@@ -10,9 +10,12 @@
         frutas.Add("Peras", "pe")
         frutas.Add("Frutillas", "fr")
         frutas.Add("Tomate", "to")
+        For x = 1 To frutas.Count
+            Console.WriteLine(frutas.Item(x))
+        Next
         Console.WriteLine("CAntidad: " & frutas.Count)
         ' iterar
-        frutas.Remove(4)
+        frutas.Remove(2)
         For Each fruta In frutas
             Console.WriteLine(fruta)
         Next
@@ -24,6 +27,7 @@
         For Each fruta In frutas
             Console.WriteLine(fruta)
         Next
+
     End Sub
 
 End Module
